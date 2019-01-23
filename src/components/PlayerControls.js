@@ -51,7 +51,7 @@ class PlayerControls extends Component {
 
   onChange = event => {
     this.setState({
-      input: event.target.value,
+      input: event.target.value && event.target.value.trim(),
     })
   }
 
