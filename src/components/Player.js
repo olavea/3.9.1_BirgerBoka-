@@ -37,8 +37,9 @@ class Player extends Component {
     navigate(key)
   }
 
-  isValidAudioFileKey = key => {
+  isValidAudioFileKey = (key = '') => {
     const { audioFiles } = this.props
+    key = key.trim()
     return audioFiles.find(track => track.key === key)
   }
 
