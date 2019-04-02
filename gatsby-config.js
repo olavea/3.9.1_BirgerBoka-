@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: '... og siden har jeg haft den',
+    title: 'BirgerBoka',
     description:
-      'En udstilling af Berger Lylloff Huseby i Atelier Ahorn, København.',
+      'Venner og familie av Birger Otto Libell forteller hverandre sitt favoritt BirgerMinne.',
     image: `${process.env.DEPLOY_PRIME_URL}/some.jpg`,
     lang: 'da',
     mainNav: [{ label: 'Info', path: 'info' }],
